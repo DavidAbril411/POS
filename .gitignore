@@ -1,1 +1,48 @@
-node_modules
+# Frontend (Next.js)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage/
+frontend/.vercel
+frontend/.DS_Store
+
+# Backend (Spring Boot)
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/.apt_generated
+backend/.classpath
+backend/.factorypath
+backend/.project
+backend/.settings
+backend/.springBeans
+backend/.idea/
+backend/*.iws
+backend/*.iml
+backend/*.ipr
+backend/logs/
+backend/build/
+
+# General
+.DS_Store
+*.log
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+
+# Large files
+*.pack
+*.jar
+
+# Git LFS
+*.pack filter=lfs diff=lfs merge=lfs -text
+*.jar filter=lfs diff=lfs merge=lfs -text
